@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+          }
+          .home-container {
+            background-image: url('./images/habotimage.png');
+            background-size: cover;
+            background-position: center;
+            height: 92vh;
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-end;
+            align-items: center;
+            border-radius: solid 2px black;
+            padding: 1rem;
+            text-align: center;
+          opacity: 1rem;
+          font-family: 'Times New Roman', Times, serif;
+          gap: 1rem;
+          
+          }
+          h1, h2 {
+            color: #374647;
+            text-shadow: 1px 1px 2px;
+            text-align: center;
+          }
+         .btn-primary{
+          width: fit-content;
+         }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+          .child-details-container{
+            padding: 20px;
+            margin: 20px 0;
+            background-position: center;
+            height: 69vh;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Times New Roman', Times, serif;
+            gap: 1rem;
+          }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+          .labels{
+            width: fit-content;
+            font-weight: bold;
+            color: #374647;
+          }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+          .service-details-container {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            padding: 20px;
+            background-color: #fff;
+            gap: 1rem;
+            font-family: 'Times New Roman', Times, serif;
+          }
 
-.App-link {
-  color: #61dafb;
-}
+          .button-container{
+            display: flex;
+            flex-direction: row;
+            align-items: left;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+          }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+          .contact-details-container{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            padding: 20px;
+            background-color: #fff;
+            gap: 1rem;
+            font-family: 'Times New Roman', Times, serif;
+          }
+
+          .thankyou-details-container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #fff;
+            gap: 1rem;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 10rem;
+          }
